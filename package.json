@@ -1,0 +1,20 @@
+{
+  "name": "static-graphic-minimal-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",]
+    "clean": "rm -rf dist",
+    "deploy": "ft-graphics-deploy",
+    "test": "echo \" No tests specified :( \""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.9.1",
+    "ft-graphics-deploy": "^2.1.0",
+    "g-ukpoliticalparties": "^0.1.0",
+    "jsdom": "^11.0.0"
+  }
+}
