@@ -6,6 +6,6 @@ There's a [node script](https://github.com/ft-interactive/example-static-graphic
 
 The using [ft-graphics-deploy](https://www.npmjs.com/package/ft-graphics-deploy) via ["npm run deploy"](https://github.com/ft-interactive/example-static-graphic-maker/blob/master/package.json#L10) the contents of the `dist` folder are put in our s3 bucket.
 
-The order in which Circle CI runs the build and deploy scripts is determined set in the [circle config file](https://github.com/ft-interactive/example-static-graphic-maker/blob/master/.circleci/config.yml)
+The order in which Circle CI runs the build and deploy scripts is set in the [circle config file](https://github.com/ft-interactive/example-static-graphic-maker/blob/master/.circleci/config.yml)
 
 The deployed URL is shown in the circle CI output logs.
