@@ -30,6 +30,11 @@ const svg = `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 </svg>`;
 
 // SAVE it to dist
+const dir = __dirname + '/dist';
+if (!fs.existsSync(dir)){
+    fs.mkdirSync(dir);
+}
+
 fs.writeFileSync('dist/pie.svg',svg);
 
 // DONE
