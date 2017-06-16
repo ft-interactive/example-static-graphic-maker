@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js",]
+    "build": "node index.js",
     "clean": "rm -rf dist",
     "deploy": "ft-graphics-deploy",
     "test": "echo \" No tests specified :( \""
